@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 120px;
+}
+
 body {
     font-family: 'Cabin';
     background-color: #758190;
     position: relative;
     padding-top: 120px;
     margin: 0;
+    scroll-padding-top: 120px;
 }
 
 #tentacles {
@@ -77,6 +83,12 @@ body {
 #welcome {
     margin-top: 20px;
     padding: 20px;
+    scroll-margin-top: 120px;
+}
+
+/* Fix anchor scrolling for all sections */
+#stats, #top-games, #games-container {
+    scroll-margin-top: 120px;
 }
 
 #gameList{
