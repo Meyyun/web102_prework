@@ -33,14 +33,8 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='https://www.loom.com/share/d1f23aced6c94f4ca38fdaecbfbcbaaf?sid=cf2978a0-1a71-46bd-b752-a8dfb766c5c2' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+🎥 **[Watch Video Walkthrough](https://www.loom.com/share/d1f23aced6c94f4ca38fdaecbfbcbaaf?sid=cf2978a0-1a71-46bd-b752-a8dfb766c5c2)**
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
 
