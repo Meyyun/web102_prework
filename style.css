@@ -3,6 +3,9 @@
 body {
     font-family: 'Cabin';
     background-color: #758190;
+    position: relative;
+    padding-top: 120px;
+    margin: 0;
 }
 
 #tentacles {
@@ -14,12 +17,16 @@ body {
     background-color: lightblue;
     padding: 1%;
     align-items: center;
-    margin-left: -10px;
-    margin-right: -10px;
-    margin-top: -10px;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
     flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 #header-profile {
@@ -32,8 +39,6 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: auto;
-    justify-content: space-between;
     font-size: 24px;
 }
 
@@ -59,11 +64,20 @@ body {
 }
 
 #header-navigator a:hover {
-    background-color: rgba(255, 255, 255, 0.3);
-    color: #000;
+    background-color: rgba(102, 126, 234, 0.2);
+    color: #667eea;
+    transform: translateY(-2px);
 }
 
+#header-navigator:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
 
+#welcome {
+    margin-top: 20px;
+    padding: 20px;
+}
 
 #gameList{
     display:flex;

@@ -4,7 +4,7 @@ Submitted by: **Sreileak Theap**
 
 **Sea Monster** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **20** hours spent in total
+Time spent: **60** hours spent in total
 
 ## Required Features
 
@@ -18,6 +18,16 @@ The following **required** functionality is completed:
 The following **optional** features are implemented:
 
 * [ ] List anything else that you can get done to improve the app functionality!
+
+### New Search Functionality
+- **Real-time Search**: Users can now search for games as they type in the search bar.
+- **Clear Button**: A clear button allows users to reset the search and display all games again.
+- **Case-insensitive Search**: The search works regardless of capitalization.
+- **No Results Message**: If no games match the search, a helpful message is displayed.
+
+### Welcome Section Redesign
+- **Improved Styling**: The welcome section now features a modern gradient background, centered text, and enhanced typography.
+- **Responsive Design**: The layout adjusts beautifully across different screen sizes.
 
 ## Video Walkthrough
 
@@ -35,10 +45,13 @@ GIF created with ...
 ## Notes
 
 Describe any challenges encountered while building the app.
+* Solving secret word problem set 
+
+
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2025] [sreileak Theap]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
